@@ -75,6 +75,7 @@ export default app;
 
 #### __tests__ folder / server.test.js
 ```js
+// __tests__ folder / server.test.js
 import request from 'supertest';
 import app from '../server.js'; // Ensure this path is correct
 
