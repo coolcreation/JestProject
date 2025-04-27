@@ -11,7 +11,7 @@ npm i jest -D
 npm i supertest -D
 ```
 
-**If using Frontend & Backend go with this:**
+**If using Frontend & Backend go with this:**  
 **Frontend (React)**:
 ```
 cd client
