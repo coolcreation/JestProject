@@ -11,6 +11,21 @@ npm i jest -D
 npm i supertest -D
 ```
 
+**If using Frontend & Backend go with this:**
+**Frontend (React)**:
+```
+cd client
+npm install jest -D
+npm install jest-environment-jsdom -D
+```
+
+**Backend (Express)**:
+```
+cd server
+npm install jest -D
+npm install supertest -D
+```
+
 **If after install and test run it errors, try these:**  
 - Make sure if statement prevents app server from running
 - Make sure test server is serving a random PORT, with app server on fixed PORT
