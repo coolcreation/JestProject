@@ -10,17 +10,21 @@ npm i jest-environment-jsdom -D
 npm i jest -D
 npm i supertest -D
 ```
+---  
 
-**If using Frontend & Backend go with this:**  
-**Frontend (React)**:
+### If using Frontend & Backend go with this: 
+**`jest-environment-jsdom`** is important for React because Jest needs a fake "browser" (DOM) environment to render components. `jsdom` simulates that.
+  
 ```
+# frontend
 cd client
 npm install jest -D
 npm install jest-environment-jsdom -D
 ```
 
-**Backend (Express)**:
+**`supertest`** is used to test your Express routes **by making fake HTTP requests** (like GET, POST, etc.) without spinning up a real server.
 ```
+# backend
 cd server
 npm install jest -D
 npm install supertest -D
